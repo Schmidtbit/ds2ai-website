@@ -3,36 +3,46 @@ import React, { Component } from 'react'
 export default class Hero extends Component {
   render() {
     return (
-    <section className="hero-section spad">
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-xl-10 offset-xl-1">
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="hero-text">
-                  <h2>Maria Williams</h2>
-                  <p>I’m a digital designer in love with photography, painting and discovering new worlds and cultures.</p>
+        <div>
+          <section id="colorlib-hero" className="js-fullheight" data-section="home">
+          <div className="flexslider js-fullheight">
+            <ul className="slides">
+              <li style={{backgroundImage: 'url(images/img_bg_1.jpg)'}}>
+                <div className="overlay" />
+                <div className="container-fluid">
+                  <div className="row">
+                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                      <div className="slider-text-inner js-fullheight">
+                        <div className="desc">
+                          <h1>Hi! <br />I'm Jackson</h1>
+                          <h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
+                          <p><a className="btn btn-primary btn-learn">Download CV <i className="icon-download4" /></a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="hero-info">
-                  <h2>General Info</h2>
-                  <ul>
-                    <li><span>Date of Birth</span>Aug 25, 1988</li>
-                    <li><span>Address</span>Rosia Road 55, Gibraltar, UK</li>
-                    <li><span>E-mail</span>mariawilliams@company.com</li>
-                    <li><span>Phone </span>+43 5266 22 345</li>
-                  </ul>
+              </li>
+              <li style={{backgroundImage: 'url(images/img_bg_2.jpg)'}}>
+                <div className="overlay" />
+                <div className="container-fluid">
+                  <div className="row">
+                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                      <div className="slider-text-inner">
+                        <div className="desc">
+                          <h1>I am <br />a Designer</h1>
+                          <h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
+                          <p><a className="btn btn-primary btn-learn">View Portfolio <i className="icon-briefcase3" /></a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="col-lg-6">
-                <figure className="hero-image">
-                  <img src="img/hero.jpg" alt={5} />
-                </figure>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
-        </div>
+        </section>
       </div>
-    </section>
     )
   }
 }

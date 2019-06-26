@@ -3,33 +3,38 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Top from './components/top'
-import Header from './components/header'
+import Sidebar from './components/sidebar'
 import Hero from './components/hero'
-import Social from './components/social'
-import Portfolio from './components/portfolio'
+import About from './components/about'
+import Services from './components/services'
+import Counter from './components/counter'
 import Skills from './components/skills'
-import Resume from './components/resume'
 import Education from './components/education'
-import Review from './components/review'
-import Footer from './components/footer'
+import Experience from './components/experience'
+import Work from './components/work'
+import Blog from './components/blog'
 import Contact from './components/contact'
 
 class App extends Component {
   render() {
-    return (<React.Fragment>
-              <Top></Top>
-              <Header></Header>
-              <Hero></Hero>
-              <Social></Social>
-              <Skills></Skills>
-              <Resume></Resume>
-              <Education></Education>
-              <Portfolio></Portfolio>
-              <Review></Review>
-              <Contact></Contact>
-              <Footer></Footer>
-            </React.Fragment>
+    return (
+      <div id="colorlib-page">
+    		<div class="container-wrap">
+          <Sidebar />
+        <div id="colorlib-main">
+          <Hero />
+          <About />
+          <Services />
+          <Counter />
+          <Skills />
+          <Education />
+          <Experience />
+          <Work />
+          <Blog />
+          <Contact />
+        </div>
+        </div>
+      </div>
     );
   }
 }
