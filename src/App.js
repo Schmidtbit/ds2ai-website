@@ -18,7 +18,6 @@ import Contact from './components/contact'
 class App extends Component {
   render() {
     return (
-      <div>
         <Top></Top>
         <div>
           <div id="preloder">
@@ -34,7 +33,6 @@ class App extends Component {
         <Review></Review>
         <Contact></Contact>
         <Footer></Footer>
-      </div>
     );
   }
 }
