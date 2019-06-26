@@ -47,7 +47,7 @@ export default class Skills extends Component {
                 <div className="col-lg-3 col-md-6">
                   <div className="fact-box">
                     <div className="fact-content">
-                      <img src="img/icon/1-w.png" alt />
+                      <img src="img/icon/1-w.png" alt=""/>
                       <h2>14</h2>
                       <p>Years of Experience</p>
                     </div>
@@ -56,7 +56,7 @@ export default class Skills extends Component {
                 <div className="col-lg-3 col-md-6">
                   <div className="fact-box">
                     <div className="fact-content">
-                      <img src="img/icon/2-w.png" alt />
+                      <img src="img/icon/2-w.png" alt="" />
                       <h2>9</h2>
                       <p>Awards Won</p>
                     </div>
