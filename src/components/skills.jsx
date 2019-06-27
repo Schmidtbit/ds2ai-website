@@ -8,57 +8,58 @@ export default class Skills extends Component {
         <div className="colorlib-narrow-content">
           <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-              <span className="heading-meta">My Specialty</span>
-              <h2 className="colorlib-heading animate-box">My Skills</h2>
+              <span className="heading-meta">My Tech Stack</span>
+              <h2 className="colorlib-heading animate-box">Technical Skills</h2>
             </div>
           </div>
           <div className="row">
             <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-              <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+              <p>Every day I am learning new tools based on the needs and requirements of my projects.
+              I use whatever I need to in order to get the job done, but here are some of the most common technologies I use today:</p>
             </div>
             <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
               <div className="progress-wrap">
-                <h3>Photoshop</h3>
+                <h3>Python</h3>
                 <div className="progress">
-                  <div className="progress-bar color-1" role="progressbar" aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} style={{width: '75%'}}>
-                    <span>75%</span>
+                  <div className="progress-bar color-1" role="progressbar" aria-valuenow={62} aria-valuemin={0} aria-valuemax={100} style={{width: '63%'}}>
+                    <span>63%</span>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
               <div className="progress-wrap">
-                <h3>jQuery</h3>
+                <h3>SQL</h3>
                 <div className="progress">
-                  <div className="progress-bar color-2" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '60%'}}>
-                    <span>60%</span>
+                  <div className="progress-bar color-2" role="progressbar" aria-valuenow={48} aria-valuemin={0} aria-valuemax={100} style={{width: '58%'}}>
+                    <span>58%</span>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
               <div className="progress-wrap">
-                <h3>HTML5</h3>
+                <h3>Jupyter Notebook</h3>
                 <div className="progress">
-                  <div className="progress-bar color-3" role="progressbar" aria-valuenow={85} aria-valuemin={0} aria-valuemax={100} style={{width: '85%'}}>
-                    <span>85%</span>
+                  <div className="progress-bar color-3" role="progressbar" aria-valuenow={93} aria-valuemin={0} aria-valuemax={100} style={{width: '93%'}}>
+                    <span>93%</span>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
               <div className="progress-wrap">
-                <h3>CSS3</h3>
+                <h3>AWS</h3>
                 <div className="progress">
-                  <div className="progress-bar color-4" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} style={{width: '90%'}}>
-                    <span>90%</span>
+                  <div className="progress-bar color-4" role="progressbar" aria-valuenow={84} aria-valuemin={0} aria-valuemax={100} style={{width: '84%'}}>
+                    <span>84%</span>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
               <div className="progress-wrap">
-                <h3>WordPress</h3>
+                <h3>Git</h3>
                 <div className="progress">
                   <div className="progress-bar color-5" role="progressbar" aria-valuenow={70} aria-valuemin={0} aria-valuemax={100} style={{width: '70%'}}>
                     <span>70%</span>
@@ -68,10 +69,10 @@ export default class Skills extends Component {
             </div>
             <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
               <div className="progress-wrap">
-                <h3>SEO</h3>
+                <h3>Apache Spark</h3>
                 <div className="progress">
-                  <div className="progress-bar color-6" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}}>
-                    <span>80%</span>
+                  <div className="progress-bar color-6" role="progressbar" aria-valuenow={40} aria-valuemin={0} aria-valuemax={100} style={{width: '40%'}}>
+                    <span>40%</span>
                   </div>
                 </div>
               </div>

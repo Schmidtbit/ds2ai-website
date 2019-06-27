@@ -8,8 +8,8 @@ export default class Contact extends Component {
         <div className="colorlib-narrow-content">
           <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-              <span className="heading-meta">Get in Touch</span>
-              <h2 className="colorlib-heading">Contact</h2>
+              <span className="heading-meta">My Contact Info</span>
+              <h2 className="colorlib-heading">Lets Talk!</h2>
             </div>
           </div>
           <div className="row">
@@ -19,7 +19,7 @@ export default class Contact extends Component {
                   <i className="icon-globe-outline" />
                 </div>
                 <div className="colorlib-text">
-                  <p><a href="#">info@domain.com</a></p>
+                  <p><a href="#">andrea@ds2ai.com</a></p>
                 </div>
               </div>
               <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
@@ -27,7 +27,7 @@ export default class Contact extends Component {
                   <i className="icon-map" />
                 </div>
                 <div className="colorlib-text">
-                  <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                  <p>Austin, TX USA</p>
                 </div>
               </div>
               <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
@@ -35,7 +35,7 @@ export default class Contact extends Component {
                   <i className="icon-phone" />
                 </div>
                 <div className="colorlib-text">
-                  <p><a href="tel://">+123 456 7890</a></p>
+                  <p><a href="tel://">+1.805.689.8390</a></p>
                 </div>
               </div>
             </div>

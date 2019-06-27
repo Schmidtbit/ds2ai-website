@@ -3421,9 +3421,10 @@ tbody.collapse.in {
 }
 
 .nav {
-  margin-bottom: 0;
+  margin-bottom: 15px;
   padding-left: 0;
   list-style: none;
+  text-align:center;
 }
 .nav:before, .nav:after {
   content: " ";
@@ -3433,13 +3434,11 @@ tbody.collapse.in {
   clear: both;
 }
 .nav > li {
-  position: relative;
-  display: block;
+  display: inline;
 }
 .nav > li > a {
-  position: relative;
-  display: block;
-  padding: 10px 15px;
+  display: inline-block;
+  padding: 10px;
 }
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
@@ -4884,6 +4883,7 @@ button.list-group-item-danger.active:focus {
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  defaultExpanded= false;
 }
 
 .panel-body {

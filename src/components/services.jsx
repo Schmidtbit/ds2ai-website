@@ -8,8 +8,8 @@ export default class Services extends Component {
             <div className="colorlib-narrow-content">
               <div className="row">
                 <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                  <span className="heading-meta">What I do?</span>
-                  <h2 className="colorlib-heading">Here are some of my expertise</h2>
+                  <span className="heading-meta">My Services</span>
+                  <h2 className="colorlib-heading">Capabilities</h2>
                 </div>
               </div>
               <div className="row row-pt-md">
@@ -19,8 +19,8 @@ export default class Services extends Component {
                       <i className="icon-bulb" />
                     </span>
                     <div className="desc">
-                      <h3>Innovative Ideas</h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                      <h3>Data Wrangling</h3>
+                      <p>I can aggregate and transform your data into a machine readable format.</p>
                     </div>
                   </div>
                 </div>
@@ -30,8 +30,8 @@ export default class Services extends Component {
                       <i className="icon-data" />
                     </span>
                     <div className="desc">
-                      <h3>Software</h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                      <h3>AWS Cloud</h3>
+                      <p>I can help you set up and manage your data with Amazon Web Services.</p>
                     </div>
                   </div>
                 </div>
@@ -41,8 +41,8 @@ export default class Services extends Component {
                       <i className="icon-phone3" />
                     </span>
                     <div className="desc">
-                      <h3>Application</h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                      <h3>Statistical Analysis</h3>
+                      <p>I can give you insights into your data with statistical evaluation and testing.</p>
                     </div>
                   </div>
                 </div>
@@ -52,8 +52,8 @@ export default class Services extends Component {
                       <i className="icon-layers2" />
                     </span>
                     <div className="desc">
-                      <h3>Graphic Design</h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                      <h3>Business Intelligence</h3>
+                      <p>I can prepare customized data visualizations to help you track key business and operational metrics.</p>
                     </div>
                   </div>
                 </div>
@@ -63,8 +63,8 @@ export default class Services extends Component {
                       <i className="icon-data" />
                     </span>
                     <div className="desc">
-                      <h3>Software</h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                      <h3>Technical Sales</h3>
+                      <p>I can help educate and deliver technical solutions to your company leaders and clients.</p>
                     </div>
                   </div>
                 </div>
@@ -74,8 +74,8 @@ export default class Services extends Component {
                       <i className="icon-phone3" />
                     </span>
                     <div className="desc">
-                      <h3>Application</h3>
-                      <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                      <h3>Algorithm Development</h3>
+                      <p>I can program and train Machine Learning and optimization algorithms.</p>
                     </div>
                   </div>
                 </div>

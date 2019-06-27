@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -22,7 +22,7 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #2c98f0;
+  color: #6b8194;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -35,10 +35,10 @@ p {
   margin-bottom: 1.5em; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
+  color: #333;
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 400;
-  margin: 0 0 30px 0; }
+  margin: 0 0 15px 0; }
 
 figure {
   margin-bottom: 2.5em;
@@ -104,7 +104,7 @@ figure {
     border-radius: 50%; }
   #colorlib-aside .position {
     display: block;
-    margin-bottom: 2em;
+    margin-bottom: 10px;
     font-size: 12px;
     text-transform: uppercase; }
   #colorlib-aside #colorlib-logo {
@@ -450,7 +450,9 @@ body.offcanvas {
     padding: 2px 10px; }
 
 .fancy-collapse-panel .panel-default > .panel-heading {
-  padding: 0; }
+  padding: 0;
+  defaultExpanded:false;
+}
 
 .panel-heading a {
   padding: 20px 25px;

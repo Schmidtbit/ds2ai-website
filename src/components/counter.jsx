@@ -11,20 +11,16 @@ export default class Counter extends Component {
           </div>
           <div className="row">
             <div className="col-md-3 text-center animate-box">
-              <span className="colorlib-counter js-counter" data-from={0} data-to={309} data-speed={5000} data-refresh-interval={50} />
-              <span className="colorlib-counter-label">Cups of coffee</span>
+              <span className="colorlib-counter js-counter" data-from={2} data-to={2} data-speed={1} data-refresh-interval={1} />
+              <span className="colorlib-counter-label">AWS Certifications</span>
             </div>
             <div className="col-md-3 text-center animate-box">
-              <span className="colorlib-counter js-counter" data-from={0} data-to={356} data-speed={5000} data-refresh-interval={50} />
-              <span className="colorlib-counter-label">Projects</span>
+              <span className="colorlib-counter js-counter" data-from={3} data-to={3} data-speed={1} data-refresh-interval={1} />
+              <span className="colorlib-counter-label">Current Projects</span>
             </div>
             <div className="col-md-3 text-center animate-box">
-              <span className="colorlib-counter js-counter" data-from={0} data-to={30} data-speed={5000} data-refresh-interval={50} />
-              <span className="colorlib-counter-label">Clients</span>
-            </div>
-            <div className="col-md-3 text-center animate-box">
-              <span className="colorlib-counter js-counter" data-from={0} data-to={10} data-speed={5000} data-refresh-interval={50} />
-              <span className="colorlib-counter-label">Partners</span>
+              <span className="colorlib-counter js-counter" data-from={7} data-to={7} data-speed={1} data-refresh-interval={1} />
+              <span className="colorlib-counter-label">Years Experience</span>
             </div>
           </div>
         </div>
